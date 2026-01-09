@@ -1,12 +1,12 @@
 function wickedsignature () {
-    window.location.href = "../wickedsignature";
+    window.location.href = "wickedsignature";
 }
 function wickedsandc () {
-    window.location.href = "../wickedsandc";
+    window.location.href = "wickedsandc";
 }
 
 function custom () {
-    window.location.href = "../custom";
+    window.location.href = "custom";
 }
 
 
