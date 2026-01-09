@@ -1,0 +1,291 @@
+#logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+body {
+    background-image: url("images/background.jpg")
+}
+
+.description {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 40px;
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.abs {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+#fine {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+}
+
+#ws {
+    background-color: rgba(0,116,217,255);
+    width: 35%;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+
+#wicksig {
+    width: 85%;
+    background-color: rgba(0,116,217,255);
+    padding: 10px;
+}
+
+#ac {
+    background-color: rgba(0,116,217,255);
+    margin: auto;
+    width: 35%;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#cheestk {
+    width: 85%;
+    background-color: rgba(0,116,217,255);
+    padding: 10px;
+}
+
+#c {
+    background-color: rgba(0,116,217,255);
+    margin-top: 40px;
+    margin-left: 540px;
+    width: 40%;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#empty {
+    width: 85%;
+    background-color: rgba(0,116,217,255);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+}
+
+#pys {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 25px;
+    width: 20%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#ao {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 25px;
+    width: 20%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#sizecontainer {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 17px;
+    width: 25%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 150px;
+    display:block;
+    height: fit-content;
+}
+
+#pyt {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 25px;
+    width: 20%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+#toppingcontainer {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 17px;
+    width: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 525px;
+    display: block;
+}
+
+#headingcontainer {
+    display: flex;
+}
+
+#aocontainer {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 17px;
+    width: 30%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-left: 500px;
+    margin-right: 175px;
+    display:block;
+    height: fit-content;
+}
+
+#logocustom {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.subpageimage {
+    width: 50%;
+    height: auto;
+    border: 3px solid black;
+    margin-left: 475px;
+    margin-top: 30px;
+}
+
+#cartheader {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 40px;
+    margin: auto;
+    width: 10%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+#cartlist {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 62%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+.addToCart {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    width: 10%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-left: 850px;
+}
+
+#addCToCart {
+    text-align: center;
+    background-color: rgba(0,116,217,255);
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    width: 10%;
+    border: 3px solid black;
+    padding: 5px;
+    color: white;
+    margin-left: 835px;
+    margin-top: 75px;
+}
+
+#optioncontainer {
+    display: flex;
+}
+
+#cartlogo {
+    margin-top: 50px;
+    width: 35%;
+    height: auto;
+    border: 3px solid black;
+    margin-left: 590px;
+}

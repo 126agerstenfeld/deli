@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Sandwich</title>
+  <link rel = "stylesheet" href = "../wnavbar.css">
+  <link rel = "stylesheet" href = "../wstyle.css">
+  <script src = "../script.js"></script>
+
+</head>
+<body>
+<ul class = "wwnavbar">
+  <li class = "wwlink"><a class = "wwa" href = "..">About Us</a></li>
+  <li class = "wwlink"><a class = "wwa" href = "../order">Order</a></li>
+  <li class = "wwlink"><a class = "wwa" href = "../cart">Cart</a></li>
+</ul>
+<h1 class = "header">Make Your Own Masterpiece</h1>
+<img id = "logocustom" src  = "../images/empty.jpg" alt = "../images/empty.jpg">
+<div id = "headingcontainer">
+  <h3 id = "pys">Pick Your Size</h3>
+  <h3 id = "pyt">Pick Your Toppings</h3>
+  <h3 id = "ao">Additional Options</h3>
+</div>
+<div id = "optioncontainer">
+  <div id = "sizecontainer">
+    <div>
+      <label for = "mw">
+        Mini Wich
+
+      </label>
+      <input type = "radio" id = "mw" name = "size">
+    </div>
+    <div>
+      <label for = "bw">
+        Big Wich</label>
+      <input type = "radio" id = "bw" name = "size">
+    </div>
+    <div>
+      <label for = "ww">
+        Wicked Wich
+      </label>
+      <input type = "radio" id = "ww" name = "size">
+    </div>
+  </div>
+
+  <div id = "toppingcontainer">
+    <div>
+      <label for = "tmto">
+        Tomato
+      </label>
+      <input type = "checkbox" id = "tmto" name = "size">
+    </div>
+    <div>
+      <label for = "ltc">
+        Lettuce</label>
+      <input type = "checkbox" id = "ltc" name = "size">
+    </div>
+    <div>
+      <label for = "pckl">
+        Pickles
+      </label>
+      <input type = "checkbox" id = "pckl" name = "size">
+    </div>
+    <div>
+      <label for = "oil">
+        Olive Oil
+      </label>
+      <input type = "checkbox" id = "oil" name = "size">
+    </div>
+    <div>
+      <label for = "vng">
+        Vinegar</label>
+      <input type = "checkbox" id = "vng" name = "size">
+    </div>
+    <div>
+      <label for = "cheese">
+        Cheese
+      </label>
+      <input type = "checkbox" id = "cheese" name = "size">
+    </div>
+    <div>
+      <label for = "ham">
+        Ham
+      </label>
+      <input type = "checkbox" id = "ham" name = "size">
+    </div>
+    <div>
+      <label for = "turkey">
+        Turkey</label>
+      <input type = "checkbox" id = "turkey" name = "size">
+    </div>
+    <div>
+      <label for = "chicken">
+        Chicken
+      </label>
+      <input type = "checkbox" id = "chicken" name = "size">
+    </div>
+    <div>
+      <label for = "onion">
+        Onion
+      </label>
+      <input type = "checkbox" id = "onion" name = "size">
+    </div>
+  </div>
+
+  <div id = "aocontainer">
+    <div>
+      <label for = "toasted">
+        Toasted Roll
+
+      </label>
+      <input type = "checkbox" id = "toasted" name = "size">
+    </div>
+    <div>
+      <label for = "wholew">
+        Whole Wheat Roll</label>
+      <input type = "checkbox" id = "wholew" name = "size">
+    </div>
+  </div>
+</div>
+
+<button onclick = "addCustomToCart()" id = "addCToCart">Add to Cart</button>
+</body>
+</html>

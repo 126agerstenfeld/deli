@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Sandwiches</title>
+  <link rel = "stylesheet" href = "../wnavbar.css">
+  <link rel = "stylesheet" href = "../wstyle.css">
+</head>
+<body>
+<ul class = "wwnavbar">
+  <li class = "wwlink"><a class = "wwa" href = "..">About Us</a></li>
+  <li class = "wwlink"><a class = "wwa" href = "../order">Order</a></li>
+  <li class = "wwlink"><a class = "wwa" href = "../cart">Cart</a></li>
+</ul>
+<h2 class = "header">Order One of Our Famous Premade Sandwiches: </h2>
+<div class = "container">
+  <div id= "ws"  onclick = "wickedsignature()">
+    <div><img id = "wicksig" src = "../images/wickedsignature.jpg" alt = "../images/wickedsignature.jpg"></div>
+    Wicked Signature
+  </div>
+  <div id = "ac" onclick = "wickedsandc()">
+    <div><img id = "cheestk" src = "../images/cheesesteak1.jpg" alt = "../images/cheesesteak1.jpg"></div>
+    Wicked Steak and Cheese
+  </div>
+</div>
+<h2 class = "header">Or Make Your Own: </h2>
+<div id = "c" onclick = "custom()">
+  <div><img id = "empty" src = "../images/empty.jpg" alt = "../images/empty.jpg"></div>
+  Make Your Own Masterpiece
+</div>
+<script src = "../script.js"></script>
+</body>
+</html>
