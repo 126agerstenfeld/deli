@@ -95,6 +95,6 @@ function order () {
     cart = JSON.parse(localStorage.getItem("cart"));
     cart = [];
     localStorage.setItem("cart", JSON.stringify(cart));
-    carttext = "Nothing in your cart!"
-    window.location.reload();
+    carttext = "Thank you for your order!"
+    document.getElementById("cartlist").innerHTML = carttext;
 }
