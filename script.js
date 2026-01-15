@@ -1,16 +1,17 @@
 function wickedsignature () {
-    window.location.href = "wickedsignature";
+    window.location.href = "/wickedsignature";
 }
 function wickedsandc () {
-    window.location.href = "wickedsandc";
+    window.location.href = "/wickedsandc";
 }
 
 function custom () {
-    window.location.href = "custom";
+    window.location.href = "/custom";
 }
 
 
-let cart = [];
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+localStorage.setItem("cart", JSON.stringify(cart))
 
 function addCustomToCart () {
     let sandwich = {type: "Custom", customtoppings: []}
@@ -69,20 +70,31 @@ function addWSAndCToCart () {
 var carttext = "";
 var customtext = "";
 function getItemsInCart () {
-    for (let i = 0; i < JSON.parse(localStorage.getItem("cart")).length; i++) {
-        if (JSON.parse(localStorage.getItem("cart"))[i].type === "Custom") {
-            customtext += "Custom: ";
-            for (let y = 0; y < JSON.parse(localStorage.getItem("cart"))[i].customtoppings.length; y++) {
-                customtext += JSON.parse(localStorage.getItem("cart"))[i].customtoppings[y] + ", ";
+    if (JSON.parse(localStorage.getItem("cart")).length === 0)
+        carttext = "Nothing in your cart!";
+    else {
+        for (let i = 0; i < JSON.parse(localStorage.getItem("cart")).length; i++) {
+            if (JSON.parse(localStorage.getItem("cart"))[i].type === "Custom") {
+                customtext += "Custom: ";
+                for (let y = 0; y < JSON.parse(localStorage.getItem("cart"))[i].customtoppings.length; y++) {
+                    customtext += JSON.parse(localStorage.getItem("cart"))[i].customtoppings[y] + ", ";
+                }
+                customtext = customtext.substring(0, customtext.length - 2)
+                carttext += customtext + "<br>";
+                customtext = "";
+            } else {
+                carttext += JSON.parse(localStorage.getItem("cart"))[i].type + "<br>";
             }
-            customtext = customtext.substring(0, customtext.length - 2)
-            carttext += customtext + "<br>";
-            customtext = "";
         }
-        else {
-            carttext += JSON.parse(localStorage.getItem("cart"))[i].type + "<br>";
-        }
+        carttext = carttext.substring(0, carttext.length - 2);
     }
-    carttext = carttext.substring(0, carttext.length - 2);
     document.getElementById("cartlist").innerHTML = carttext;
+}
+
+function order () {
+    cart = JSON.parse(localStorage.getItem("cart"));
+    cart = [];
+    localStorage.setItem("cart", JSON.stringify(cart));
+    carttext = "Nothing in your cart!"
+    window.location.reload();
 }

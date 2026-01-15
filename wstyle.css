@@ -16,9 +16,9 @@ body {
     background-color: rgba(0,116,217,255);
     font-family: "Times New Roman", sans-serif;
     font-size: 20px;
-    margin-top: 40px;
-    margin: auto;
-    margin-bottom: 40px;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     border: 3px solid black;
     padding: 5px;
@@ -240,24 +240,31 @@ body {
     margin-top: 50px;
 }
 
-#cartlist {
+#cartcontainer {
     text-align: center;
     background-color: rgba(0,116,217,255);
     font-family: "Times New Roman", sans-serif;
     font-size: 20px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 62%;
     border: 3px solid black;
     padding: 5px;
     color: white;
-    margin-top: 50px;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    display: flex;
+}
+#cartlist {
+margin: auto;
+    font-size: 30px;
 }
 
 .addToCart {
     text-align: center;
     background-color: rgba(0,116,217,255);
     font-family: "Times New Roman", sans-serif;
-    font-size: 20px;
     width: 10%;
     border: 3px solid black;
     padding: 5px;
