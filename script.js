@@ -92,9 +92,15 @@ function getItemsInCart () {
 }
 
 function order () {
+    const ordered = true;
     cart = JSON.parse(localStorage.getItem("cart"));
+    if (cart.length === 0) {
+        carttext = "Nothing was ordered."
+    }
+    else {
+        carttext = "Thank you for your order!"
+    }
     cart = [];
     localStorage.setItem("cart", JSON.stringify(cart));
-    carttext = "Thank you for your order!"
     document.getElementById("cartlist").innerHTML = carttext;
 }
