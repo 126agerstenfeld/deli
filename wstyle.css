@@ -102,7 +102,7 @@ body {
     background-color: rgba(0,116,217,255);
     margin-top: 40px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     width: 40%;
     border: 3px solid black;
     padding: 10px;
@@ -224,7 +224,7 @@ body {
     width: 50%;
     height: auto;
     border: 3px solid black;
-    margin-left: 475px;
+    margin-left: 24vw;
     margin-top: 30px;
 }
 
@@ -270,9 +270,8 @@ margin: auto;
     border: 3px solid black;
     padding: 5px;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 20px;
+    margin-left: 43.5vw;
 }
 
 #addCToCart {
@@ -284,8 +283,7 @@ margin: auto;
     border: 3px solid black;
     padding: 5px;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 43.5vw;
     margin-top: 75px;
 }
 
@@ -298,6 +296,4 @@ margin: auto;
     width: 35%;
     height: auto;
     border: 3px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-left: 31vw;
