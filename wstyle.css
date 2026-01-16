@@ -101,7 +101,8 @@ body {
 #c {
     background-color: rgba(0,116,217,255);
     margin-top: 40px;
-    margin-left: 540px;
+    margin-left: auto;
+    margin-right: auto
     width: 40%;
     border: 3px solid black;
     padding: 10px;
@@ -269,7 +270,8 @@ margin: auto;
     border: 3px solid black;
     padding: 5px;
     color: white;
-    margin-left: 850px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
 }
 
@@ -282,7 +284,8 @@ margin: auto;
     border: 3px solid black;
     padding: 5px;
     color: white;
-    margin-left: 835px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 75px;
 }
 
@@ -295,5 +298,6 @@ margin: auto;
     width: 35%;
     height: auto;
     border: 3px solid black;
-    margin-left: 590px;
+    margin-left: auto;
+    margin-right: auto;
 }
